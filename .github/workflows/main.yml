@@ -33,6 +33,3 @@ jobs:
 
       - name: Run test
         run: ./test
-
-      - name: Run rectangle
-        run: ./rectangle
