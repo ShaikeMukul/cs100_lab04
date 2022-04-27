@@ -8,6 +8,9 @@ class Rectangle {
     public:
         Rectangle();
         Rectangle(int w,int h);
+        
+	int get_width();
+	int get_height();        
 
         void set_width(int w);
         void set_height(int h);
