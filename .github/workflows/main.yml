@@ -6,11 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-<<<<<<< HEAD
     branches: [ main , ibhan003/passing_tests ]
-=======
-    branches: [ main, smuku004/failing_tests]
->>>>>>> d4ddbbd814ff3e0ed90f15fe5f676746095bbfb6
   pull_request:
     branches: [ main ]
 
