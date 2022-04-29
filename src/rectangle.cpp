@@ -19,7 +19,7 @@ void Rectangle::set_height(int h) {
 }
 
 int Rectangle::area() {
-    return this->width*this->height;
+    return 0;
 }
 int Rectangle::get_width() {
 	return this->width;
